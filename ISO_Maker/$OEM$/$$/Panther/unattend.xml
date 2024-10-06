@@ -113,6 +113,7 @@
           <Order>15</Order>
           <Path>powershell.exe -NoProfile -Command "Set-ExecutionPolicy -Scope 'LocalMachine' -ExecutionPolicy 'RemoteSigned' -Force;"</Path>
         </RunSynchronousCommand>
+      </RunSynchronous>
     </component>
   </settings>
   <settings pass="auditSystem"></settings>
